@@ -1,0 +1,1 @@
+document.getElementById('asdf').innerHTML="Changed now"
