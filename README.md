@@ -1,2 +1,2 @@
 # flask1
-Testing some things
+Learning flask by doing some things
