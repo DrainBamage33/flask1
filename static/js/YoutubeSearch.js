@@ -76,7 +76,7 @@ function downloadReq(url) {
     var input = document.createElement('input');
     input.type = 'hidden';
     input.name = "key";
-    input.value = ur;
+    input.value = url;
     form.appendChild(input);
 //    }
     form.submit();
