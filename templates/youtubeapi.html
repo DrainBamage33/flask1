@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Youthoob api testing</title>
-</head>
-<body>
+{% extends "layout.html" %}
+{% block import %}
+<script src="{{ url_for('static', filename='js/secrets.js') }}"></script>
+<script src="{{ url_for('static', filename='js/youtubeapi.js') }}"></script>
+{% endblock %}
+{% block title %}Youthoob api testing{% endblock %}
+{% block content %}
 <p>my playlists</p>
 <br>
 <table>
@@ -13,8 +13,4 @@
     </playlists>
 
 </table>
-<script src="{{ url_for('static', filename='js/secrets.js') }}"></script>
-<script src="{{ url_for('static', filename='js/youtubeapi.js') }}"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</body>
-</html>
+{% endblock %}

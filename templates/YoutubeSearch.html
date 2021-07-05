@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block import %}
+<script src="{{ url_for('static', filename='js/secrets.js') }}"></script>
+<script src="{{ url_for('static', filename='js/YoutubeSearch.js') }}"></script>
+{% endblock %}
+{% block title %}Youthoob api testing{% endblock %}
+{% block content %}
+<input type="text" placeholder="search something..." id="search-input">
+<input type="text" placeholder="key..." id="key-input">
+<button type="button" onclick="search();">search</button>
+<br>
+<table>
+    <search>
+
+    </search>
+
+</table>
+{% endblock %}

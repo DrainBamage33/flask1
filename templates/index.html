@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    Herro everynion
-</body>
-</html>
+{% extends "layout.html" %}
+{% block import %}{% endblock %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<a href="/git_api">githubapi test</a><br>
+<a href="/youtube_api">youtubeapi test</a><br>
+<a href="/youtube_search">youtubesearch test</a><br>
+{% endblock %}

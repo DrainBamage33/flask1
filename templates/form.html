@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block import %}{% endblock %}
+{% block title %}Form{% endblock %}
+{% block content %}
+<form action="/download_test" method="post">
+    <input type="text" id="val" name="val"><br>
+    <input type="submit" value="submit">
+</form>
+{% endblock %}
